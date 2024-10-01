@@ -76,4 +76,17 @@ module fulladder(
     halfadder ha1(cin, s, sum, c1);
     assign carry = c | c1;
 endmodule
+```
+###Analysis
+In this lab, we implemented and tested the Half Adder and Full Adder using Verilog. Both adders were simulated and synthesized to ensure they functioned correctly, performing binary addition based on the truth tables provided. The design flow through RTL verification demonstrated the correct working of these digital components.
+
+###Conclusion
+By successfully synthesizing and simulating the Verilog code for Half Adder and Full Adder, we confirmed that both circuits perform binary addition accurately. The RTL designs and truth tables were verified, ensuring the correctness of the logic implementation.
+
+###Tools Used
+Vivado: Used to synthesize and implement the Verilog code.
+Logisim: Used to simulate the logic design of the adders before coding in Verilog.
+References
+Lecture notes on combinational logic circuits.
+Documentation from Intel Quartus and Vivado for RTL synthesis and simulation.
 
