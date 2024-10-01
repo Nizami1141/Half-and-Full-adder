@@ -12,6 +12,11 @@ A **Half Adder** and **Full Adder** are foundational components in digital circu
 - **Inputs**: A, B
 - **Outputs**: Sum, Carry
 - The Half Adder is implemented using XOR and AND gates.
+
+
+![image](https://github.com/user-attachments/assets/02da0396-2446-40b8-a0ff-bb38a47fac5f)
+
+
   
 **Truth Table:**
 | A   | B   | Sum | Carry |
@@ -29,6 +34,8 @@ A **Half Adder** and **Full Adder** are foundational components in digital circu
 - **Inputs**: A, B, Cin (Carry In)
 - **Outputs**: Sum, Carry
 - The Full Adder can be implemented using two Half Adders.
+
+  ![image](https://github.com/user-attachments/assets/90529de9-63ba-475d-968d-c6307974c3dd)
   
 **Truth Table:**
 | A   | B   | Cin | Sum | Cout |
@@ -60,7 +67,7 @@ module halfadder(
     and gate_and(c, a, b);
 endmodule
 ````
-
+![image](https://github.com/user-attachments/assets/bbfc2be5-ece3-4a76-a101-466dbba5b231)
 
 ### Full Adder Verilog Code:
 ```verilog
@@ -77,6 +84,8 @@ module fulladder(
     assign carry = c | c1;
 endmodule
 ```
+![image](https://github.com/user-attachments/assets/0525043f-1b4c-481f-9737-a23985123b5a)
+
 ### Analysis
 In this lab, we implemented and tested the Half Adder and Full Adder using Verilog. Both adders were simulated and synthesized to ensure they functioned correctly, performing binary addition based on the truth tables provided. The design flow through RTL verification demonstrated the correct working of these digital components.
 
