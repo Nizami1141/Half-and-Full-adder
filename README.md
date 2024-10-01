@@ -59,8 +59,11 @@ module halfadder(
     xor gate_xor(s, a, b);  
     and gate_and(c, a, b);
 endmodule
+````
+
 
 ### Full Adder Verilog Code:
+```verilog
 module fulladder(
     input a,        // First input
     input b,        // Second input
